@@ -1,0 +1,44 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning"],
+      "responses": [
+        "Hello! Welcome to the AI Registration Assistant.",
+        "Hi! How can I help you today?"
+      ]
+    },
+    {
+      "tag": "registration",
+      "patterns": [
+        "I want to register",
+        "How do I register?",
+        "Register me"
+      ],
+      "responses": [
+        "Please provide your Full Name, Email, and Course."
+      ]
+    },
+    {
+      "tag": "eligibility",
+      "patterns": [
+        "Am I eligible?",
+        "Eligibility",
+        "Can I apply?"
+      ],
+      "responses": [
+        "Please tell me your course so I can check the eligibility."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you"
+      ],
+      "responses": [
+        "You're welcome! Have a great day."
+      ]
+    }
+  ]
+}
